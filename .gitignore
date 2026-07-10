@@ -1,0 +1,62 @@
+# Maven build output
+target/
+**/target/
+
+# IDE files
+.idea/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.vscode/
+.sublime-*
+
+# Trae workspace rules
+.trae/
+
+# Log files
+logs/
+**/logs/
+*.log
+
+# Runtime data (RDB, AOF)
+data/
+data_diag/
+data_diag2/
+data_diag3/
+**/data/
+
+# Test databases
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+
+# JaCoCo coverage
+*.exec
+**/site/jacoco/
+
+# Surefire test reports
+**/surefire-reports/
+
+# Test runtime data directories
+**/test-data/
+
+# Maven dependency resolution
+**/maven-status/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives
+*.rar
+*.zip
+*.tar.gz
+*.7z
+
+# Environment / secrets
+*.env
+.credentials
