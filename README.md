@@ -2,6 +2,8 @@
 
 SDCS 是一个与 Redis 协议兼容的高性能分布式缓存系统，采用 Java 25 虚拟线程和纯 JDK NIO 构建，零外部网络依赖。
 
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
+
 ## 设计理念
 
 ### 零外部依赖的 RESP 协议栈
@@ -310,3 +312,7 @@ mvn clean test
 - RocksDB（嵌入式持久化引擎）
 - SLF4J + Logback（日志）
 - JUnit 5 + JaCoCo（测试 + 覆盖率）
+
+## License
+
+Apache 2.0, see [LICENSE](LICENSE).
